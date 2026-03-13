@@ -7,7 +7,7 @@ const App = () => {
   return (
     <SafeAreaView>
       <ScrollView>
-        <View style={styles.container}>
+        <View >
           <FlatCards />
         </View>
       </ScrollView>
@@ -16,9 +16,9 @@ const App = () => {
 }
 
 export default App
-const styles = StyleSheet.create({
-  container:{
-    flex:1,
-    padding:10,
-  }
-})
+// const styles = StyleSheet.create({
+//   container:{
+//     flex:1,
+//     padding:10,
+//   }
+// })
