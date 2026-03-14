@@ -1,6 +1,5 @@
 import { Image, StyleSheet, Text, View } from 'react-native';
 import React from 'react';
-import ElevatedCards from './ElevatedCards';
 
 export default function FancyCard() {
   return (
