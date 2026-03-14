@@ -5,6 +5,7 @@ import FlatCards from './Component/FlatCards'
 import ElevatedCards from './Component/ElevatedCards'
 import FancyCard from './Component/FancyCard'
 import ActionCard from './Component/ActionCard'
+import ContactList from './Component/ContactList'
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
           <ElevatedCards />
           <FancyCard />
           <ActionCard />
+          <ContactList />
       </ScrollView>
     </SafeAreaView>
   )
